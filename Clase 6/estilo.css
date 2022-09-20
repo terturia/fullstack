@@ -147,3 +147,63 @@ height: 30vh;
     .menu li:hover ul {
         display:block;
     }
+
+
+    /* Formulario */
+    .contacto{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formulario{
+        padding: 4rem;
+        margin: 2rem;
+        background-color: #E7E7E7;
+        border-radius: 5px;
+    }
+
+    .formulario input, .formulario textarea, .formulario select{
+        margin-bottom: 1.5rem;
+        width: 100%;
+        padding: 1rem;
+    }
+    .fieldset, legend{
+        border: none;
+        
+    }
+    .checkbox{
+        display: flex;
+    
+    }
+    .checkbox input{
+        width: 5%;
+    }
+
+    .boton_enviar{
+        background-color: aqua;
+        border-color: aqua;
+        border-radius: 4px;
+    }
+    .boton_enviar:hover{
+        background-color: blueviolet;
+        border: 2px solid;
+        border-color:blueviolet;
+        font-size: 2rem;
+
+    }
+    
+    /* Pseudoclases */
+    a:hover{ font-weight:bold; background-color:blue; color:white; text-decoration:underline; }
+    a:link{ text-decoration:none; color:red; }
+    a:visited{ color:#999999; }
+    a:active{ background-color:yellow; color:black; }
+
+
+    /* div:not(.padre){
+        padding-left:40px;
+        padding-right:40px;
+    } */
+    
+
+    .padre div:nth-child(2){ font-weight:bold; color:orange; }
