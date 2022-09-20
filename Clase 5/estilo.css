@@ -38,7 +38,7 @@ height: 30vh;
 
 }
 
-.menuSuperior a{
+.menuSuperior a, .menuFooter a{
     text-decoration: none;
     color: rgb(247001, 169, 80);
     font-weight: 700;
@@ -46,21 +46,33 @@ height: 30vh;
     padding: 2rem;
 }
 
+.contenedor{
+    display: flex;
+
+}
+
 .contenido{
     background-color: rgb(234, 181, 181);
-    padding: 2rem;
-    width: 70%;
-    float: left;
+    padding: 1rem;
+    width: 80%;
+
+}
+.contenido__personajes{
+    padding: 1rem;
+    display: flex;
+    align-items: baseline;
+    text-align: center;
 
 }
 
 .contenido__imagen{
-    width: 50%;
+    width: 100%;
  
 }
 
 .contenido__imagen img{
-    width: 100%;   
+    width: 80%;   
+    margin: 1rem;
     box-shadow: 5px 5px rgba(107, 107, 107, 0.514);
     border-radius: 10px;
 }
@@ -68,9 +80,7 @@ height: 30vh;
 .contenido__sugerencias{
     background-color: rgb(228, 198, 255);
     line-height: 2rem;
-    width: 30%;
     padding: 2rem;
-    float: right;
     height: 1100px;
 }
 
@@ -87,16 +97,34 @@ height: 30vh;
 }
 
 
+/* FOOTER */
 
 
 .footer{
     background-color: black;
-    clear: both;
+    color: white;
+    padding: 2rem;
+
+}
+.bloqueFooter{
+    display: flex;
+    justify-content: space-around;
+}
+.menuFooter{
+    list-style: none;
+}
+
+.menuFooter a{
     color: white;
 
 }
-
-
+.link a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.creditoFinal{
+    text-align: center;
+}
 
 /* ejemplo submenu */
     .menu {
